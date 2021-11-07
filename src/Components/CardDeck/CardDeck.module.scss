@@ -1,0 +1,66 @@
+.o_container{
+    .o_banner{
+        width: 40%;
+        margin-bottom: -4rem;
+        z-index: 999;
+    }
+    background: linear-gradient(180deg, #A00087 0%, #401238 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    padding-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    button{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+    button:hover,button:focus{
+        color:#870272 !important;
+    }
+}
+
+.o_cardDeck{
+    padding: 2rem;
+}
+
+.o_card{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    img{
+        -webkit-box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.25);
+        box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.25);
+        width: 100%;
+        border-radius: 15px;
+        filter: brightness(46%);
+        transition: all ease 1s;
+    }
+    h1{
+        color: #fff;
+        position: absolute;
+        //top: 44%;
+        width: 90%;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 700;
+        transition: all ease .4s;
+    }
+}
+
+.o_card:hover{
+    transition: all ease 5s;
+
+    h1{
+        color: transparent;
+    }
+    img{
+        filter: brightness(100%);
+    }
+    cursor: pointer;
+}

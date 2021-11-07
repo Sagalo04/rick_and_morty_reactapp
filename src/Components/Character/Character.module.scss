@@ -1,0 +1,43 @@
+.o_back{
+    background: linear-gradient(180deg, #A00087 0%, #401238 100%);
+    min-height: 100vh;
+    max-height: 100%;
+}
+.o_banner{
+    background: url(../../images/cBanner.png) center center;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+}
+
+.o_container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -7rem;
+    flex-wrap: wrap;
+    img{
+        margin-right: 1rem;
+        -webkit-box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.25);
+        box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.25);
+
+        border-radius: 15px;
+    }
+    .o_info{
+        // align-self: flex-start;
+        margin-left: 1rem;
+        color: #fff;
+        span{
+            font-weight: 300;
+        }
+        h2{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        h1{
+            font-size: 3rem;
+            font-weight: 700;
+        }
+    }
+}
