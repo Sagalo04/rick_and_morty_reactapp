@@ -31,7 +31,7 @@ function Character() {
 
     useEffect(() => {
         getCharacter();
-    }, []);
+    }, );
 
     return (
         <div className={Styles.o_back}>

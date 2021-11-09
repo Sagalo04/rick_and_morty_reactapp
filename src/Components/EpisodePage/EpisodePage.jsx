@@ -22,7 +22,7 @@ function EpisodePage() {
 
     useEffect(() => {
         getEpisode();
-    }, []);
+    }, );
 
     return (
         <div className={Styles.o_back}>

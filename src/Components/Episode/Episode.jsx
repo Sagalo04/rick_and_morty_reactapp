@@ -13,7 +13,7 @@ function Episode({ id }) {
 
     useEffect(() => {
         getEpisode();
-    }, []);
+    }, );
 
     return (
         <p>
