@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import './App.css';
+import Styles from './App.module.scss';
 // import CardDeck from './Components/CardDeck/CardDeck';
 // import Character from './Components/Character/Character';
 
@@ -7,14 +7,13 @@ function App() {
 
 
   return (
-    <div className="App">
-      <h1>Bookkeeper</h1>
-      <nav
-      >
-        <Link to="/characters">Invoices</Link> |{" "}
-        </nav>
+    <>
+      <nav className={Styles.o_nav}>
+        <Link className={Styles.o_link} to="/">Home</Link>
+        <Link to="/characters">Personajes</Link>
+      </nav>
       <Outlet />
-    </div>
+    </>
   );
 }
 

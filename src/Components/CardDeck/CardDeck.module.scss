@@ -64,3 +64,21 @@
     }
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .o_container{
+        .o_banner {
+          width: 70%;
+        }
+
+    }
+}
+
+@media (max-width: 425px) {
+    .o_container{
+        .o_banner {
+          width: 85%;
+        }
+
+    }
+}
