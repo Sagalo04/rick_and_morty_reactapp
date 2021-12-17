@@ -20,7 +20,6 @@ function Character() {
         await fetch(`${characterurl}/${characterId}`)
             .then((res) => res.json())
             .then((json) => {
-                console.log(json)
                 setPersonaje(json)
                 setOrigin(json.origin.name)
                 setLocation(json.location.name)
