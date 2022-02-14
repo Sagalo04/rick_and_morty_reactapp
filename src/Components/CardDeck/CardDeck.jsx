@@ -37,7 +37,7 @@ const CardDeck = ({ type }) => {
 
     useEffect(() => {
         getAllCharacters(initialUrl);
-    }, );
+    },[] );
 
 
 
